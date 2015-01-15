@@ -1,0 +1,21 @@
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "IDe-rm-N1K"; */
+"IDe-rm-N1K.normalTitle" = "Noticia legal";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "V0F-rl-fdj"; */
+"V0F-rl-fdj.normalTitle" = "Configuración";
+
+/* Class = "IBUIButton"; normalTitle = "Iniciar viaje"; ObjectID = "XVd-Ku-TYU"; */
+"XVd-Ku-TYU.normalTitle" = "Iniciar viaje";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "e7G-AG-48Y"; */
+"e7G-AG-48Y.normalTitle" = "Acerca de";
+
+/* Class = "IBUILabel"; text = "This application aims to help its users get medical attention as fast as possible in case of a vehicle crash."; ObjectID = "ZYM-xI-S5b"; */
+"ZYM-xI-S5b.text" = "Esta aplicación tiene el objetivo de brindar al usuario atención médica de manera rápida en el caso de un accidente automovilístico.";
+
+/* Class = "IBUILabel"; text = "This application does not guarantee to work. Exercise caution."; ObjectID = "dPh-rZ-Zu3"; */
+"dPh-rZ-Zu3.text" = "Esta aplicación no garantiza su correcto funcionamiento. Maneje con cuidado.";
+
+/* Class = "IBUILabel"; text = "Special thanks to José Martín Molina Espinoza"; ObjectID = "FP4-eQ-IyA"; */
+"FP4-eQ-IyA.text" = "Agradecimientos especiales a José Martín Molina Espinoza.";
