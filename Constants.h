@@ -10,4 +10,14 @@
 
 @interface Constants : NSObject
 FOUNDATION_EXPORT NSString *const settingsFile;
+FOUNDATION_EXPORT NSString *const settingsFileName;
+FOUNDATION_EXPORT NSString *const settingsFileExtention;
+
+FOUNDATION_EXPORT NSString *const userNameKey;
+FOUNDATION_EXPORT NSString *const emergencyContactsKey;
+FOUNDATION_EXPORT NSString *const emergencyMessageKey;
+
+FOUNDATION_EXPORT NSString *const gpsReplacementString;
+FOUNDATION_EXPORT NSString *const nameReplacementString;
+FOUNDATION_EXPORT NSString *const defaultEmergencyMessage;
 @end

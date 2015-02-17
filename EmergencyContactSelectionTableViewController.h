@@ -10,4 +10,8 @@
 
 @interface EmergencyContactSelectionTableViewController : UITableViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property(strong, nonatomic) NSArray *contactList;
+@property(strong, nonatomic) NSArray *selectedContacts;
+
 @end

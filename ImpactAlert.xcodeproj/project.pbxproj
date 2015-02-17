@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380F0ABF1A7B54EB000E0213 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 380F0ABE1A7B54EB000E0213 /* Settings.m */; };
+		384D86471A85B9DA00FC39EB /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 384D86461A85B9DA00FC39EB /* Contact.m */; };
+		384D86491A85ED0500FC39EB /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384D86481A85ED0500FC39EB /* AddressBookUI.framework */; };
+		384D864B1A85ED0C00FC39EB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384D864A1A85ED0C00FC39EB /* AddressBook.framework */; };
+		384D864E1A85F8E000FC39EB /* MainConfigurationAndEmergencyContactsContector.m in Sources */ = {isa = PBXBuildFile; fileRef = 384D864D1A85F8E000FC39EB /* MainConfigurationAndEmergencyContactsContector.m */; };
 		38C5D0D01A6727780035F4BE /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C5D0CF1A6727780035F4BE /* FileManager.m */; };
 		38C6610E1A60D664006AADCB /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C6610D1A60D664006AADCB /* MainMenuViewController.m */; };
 		38C981C11A6827F30096B8F8 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C981C01A6827F30096B8F8 /* Constants.m */; };
+		38C981C41A6881850096B8F8 /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C981C31A6881850096B8F8 /* ConfigurationViewController.m */; };
 		38CA05401A5BD31000320773 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA053F1A5BD31000320773 /* main.m */; };
 		38CA05431A5BD31000320773 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA05421A5BD31000320773 /* AppDelegate.m */; };
 		38CA05491A5BD31000320773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CA05471A5BD31000320773 /* Main.storyboard */; };
@@ -17,6 +23,7 @@
 		38CA054E1A5BD31000320773 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CA054C1A5BD31000320773 /* LaunchScreen.xib */; };
 		38CA055A1A5BD31100320773 /* ImpactAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA05591A5BD31100320773 /* ImpactAlertTests.m */; };
 		38CA05641A5BD54A00320773 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 38CA05631A5BD54A00320773 /* background.jpeg */; };
+		38CB658E1A6F48900089C13C /* EmergencyContactSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CB658D1A6F48900089C13C /* EmergencyContactSelectionTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		380F0ABD1A7B54EB000E0213 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		380F0ABE1A7B54EB000E0213 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		384D86451A85B9DA00FC39EB /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		384D86461A85B9DA00FC39EB /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		384D86481A85ED0500FC39EB /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		384D864A1A85ED0C00FC39EB /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		384D864C1A85F8E000FC39EB /* MainConfigurationAndEmergencyContactsContector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainConfigurationAndEmergencyContactsContector.h; sourceTree = "<group>"; };
+		384D864D1A85F8E000FC39EB /* MainConfigurationAndEmergencyContactsContector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainConfigurationAndEmergencyContactsContector.m; sourceTree = "<group>"; };
 		38C5D0CB1A671E580035F4BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		38C5D0CC1A671E9D0035F4BE /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
 		38C5D0CE1A6727780035F4BE /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
@@ -41,6 +56,8 @@
 		38C6610D1A60D664006AADCB /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		38C981BF1A6827F30096B8F8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		38C981C01A6827F30096B8F8 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		38C981C21A6881850096B8F8 /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
+		38C981C31A6881850096B8F8 /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationViewController.m; sourceTree = "<group>"; };
 		38CA053A1A5BD31000320773 /* ImpactAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpactAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CA053E1A5BD31000320773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38CA053F1A5BD31000320773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +68,8 @@
 		38CA05581A5BD31100320773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38CA05591A5BD31100320773 /* ImpactAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImpactAlertTests.m; sourceTree = "<group>"; };
 		38CA05631A5BD54A00320773 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpeg; path = ../../../Desktop/background.jpeg; sourceTree = "<group>"; };
+		38CB658C1A6F48900089C13C /* EmergencyContactSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyContactSelectionTableViewController.h; sourceTree = "<group>"; };
+		38CB658D1A6F48900089C13C /* EmergencyContactSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyContactSelectionTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384D864B1A85ED0C00FC39EB /* AddressBook.framework in Frameworks */,
+				384D86491A85ED0500FC39EB /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384D86441A85B9BC00FC39EB /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				380F0ABD1A7B54EB000E0213 /* Settings.h */,
+				380F0ABE1A7B54EB000E0213 /* Settings.m */,
+				384D86451A85B9DA00FC39EB /* Contact.h */,
+				384D86461A85B9DA00FC39EB /* Contact.m */,
+			);
+			name = DataStructures;
+			sourceTree = "<group>";
+		};
 		38C5D0CD1A6721870035F4BE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +110,8 @@
 				38C5D0CF1A6727780035F4BE /* FileManager.m */,
 				38C981BF1A6827F30096B8F8 /* Constants.h */,
 				38C981C01A6827F30096B8F8 /* Constants.m */,
+				384D864C1A85F8E000FC39EB /* MainConfigurationAndEmergencyContactsContector.h */,
+				384D864D1A85F8E000FC39EB /* MainConfigurationAndEmergencyContactsContector.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -85,6 +119,7 @@
 		38C6610F1A60D678006AADCB /* CustomClasses */ = {
 			isa = PBXGroup;
 			children = (
+				384D86441A85B9BC00FC39EB /* DataStructures */,
 				38C5D0CD1A6721870035F4BE /* Utils */,
 				38C661421A60DAF8006AADCB /* Views */,
 			);
@@ -96,6 +131,10 @@
 			children = (
 				38C6610C1A60D664006AADCB /* MainMenuViewController.h */,
 				38C6610D1A60D664006AADCB /* MainMenuViewController.m */,
+				38C981C21A6881850096B8F8 /* ConfigurationViewController.h */,
+				38C981C31A6881850096B8F8 /* ConfigurationViewController.m */,
+				38CB658C1A6F48900089C13C /* EmergencyContactSelectionTableViewController.h */,
+				38CB658D1A6F48900089C13C /* EmergencyContactSelectionTableViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -103,6 +142,8 @@
 		38CA05311A5BD31000320773 = {
 			isa = PBXGroup;
 			children = (
+				384D864A1A85ED0C00FC39EB /* AddressBook.framework */,
+				384D86481A85ED0500FC39EB /* AddressBookUI.framework */,
 				38C6610F1A60D678006AADCB /* CustomClasses */,
 				38CA05651A5BD56000320773 /* Images */,
 				38CA053C1A5BD31000320773 /* ImpactAlert */,
@@ -268,11 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384D864E1A85F8E000FC39EB /* MainConfigurationAndEmergencyContactsContector.m in Sources */,
 				38C981C11A6827F30096B8F8 /* Constants.m in Sources */,
+				38CB658E1A6F48900089C13C /* EmergencyContactSelectionTableViewController.m in Sources */,
+				380F0ABF1A7B54EB000E0213 /* Settings.m in Sources */,
 				38CA05431A5BD31000320773 /* AppDelegate.m in Sources */,
 				38C6610E1A60D664006AADCB /* MainMenuViewController.m in Sources */,
 				38CA05401A5BD31000320773 /* main.m in Sources */,
 				38C5D0D01A6727780035F4BE /* FileManager.m in Sources */,
+				384D86471A85B9DA00FC39EB /* Contact.m in Sources */,
+				38C981C41A6881850096B8F8 /* ConfigurationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

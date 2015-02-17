@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Settings.h"
 
 @interface FileManager : NSObject
-+(BOOL)isFirstRun;
++(BOOL) isFirstRun;
++(NSString *) getUserName;
++(NSArray *) getEmergencyContacts;
++(NSString *) getEmergencyMessage;
++(void) saveSettingsChanges:(Settings *)newSettings;
 @end
