@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA386E77-B6BF-40D8-9F0B-40A437B39AB9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImpactAlert</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4002582D6569081FBD35DA7FC056C7FA4856869E</key>
+		<string>https://github.com/dasmesser/ImpactAlertIOS.git</string>
+		<key>4FF1B8EBD222124E4B5D9AC756763CC59A28F907</key>
+		<string>https://github.com/dileepaj/ALLib.git</string>
+		<key>DEDD58F0BAF28034A74179391A23AC2E0219CDC3</key>
+		<string>https://github.com/RNCryptor/RNCryptor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImpactAlert.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4002582D6569081FBD35DA7FC056C7FA4856869E</key>
+		<string>../..</string>
+		<key>4FF1B8EBD222124E4B5D9AC756763CC59A28F907</key>
+		<string>../..ALLib/ALLib/</string>
+		<key>DEDD58F0BAF28034A74179391A23AC2E0219CDC3</key>
+		<string>../../../RNCryptor/RNCryptor</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dasmesser/ImpactAlertIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4002582D6569081FBD35DA7FC056C7FA4856869E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4FF1B8EBD222124E4B5D9AC756763CC59A28F907</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ALLib</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4002582D6569081FBD35DA7FC056C7FA4856869E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImpactAlert</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DEDD58F0BAF28034A74179391A23AC2E0219CDC3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RNCryptor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

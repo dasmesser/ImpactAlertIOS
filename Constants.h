@@ -9,15 +9,28 @@
 #import <Foundation/Foundation.h>
 
 @interface Constants : NSObject
-FOUNDATION_EXPORT NSString *const settingsFile;
-FOUNDATION_EXPORT NSString *const settingsFileName;
-FOUNDATION_EXPORT NSString *const settingsFileExtention;
+FOUNDATION_EXPORT NSString *const configFileName;
 
-FOUNDATION_EXPORT NSString *const userNameKey;
-FOUNDATION_EXPORT NSString *const emergencyContactsKey;
-FOUNDATION_EXPORT NSString *const emergencyMessageKey;
+FOUNDATION_EXPORT NSString *const usernameKey;
+FOUNDATION_EXPORT NSString *const passwordKey;
+FOUNDATION_EXPORT NSString *const idKey;
 
-FOUNDATION_EXPORT NSString *const gpsReplacementString;
-FOUNDATION_EXPORT NSString *const nameReplacementString;
-FOUNDATION_EXPORT NSString *const defaultEmergencyMessage;
+FOUNDATION_EXPORT NSString *const callTypeKey;
+FOUNDATION_EXPORT NSString *const loggin;
+FOUNDATION_EXPORT NSString *const confirmation;
+FOUNDATION_EXPORT NSString *const alert;
+FOUNDATION_EXPORT NSString *const cancel;
+
+FOUNDATION_EXPORT NSString *const alertKey;
+FOUNDATION_EXPORT NSString *const red;
+FOUNDATION_EXPORT NSString *const green;
+
+FOUNDATION_EXPORT NSString *const gpsKey;
+
+FOUNDATION_EXPORT NSString *const encryptionError;
+FOUNDATION_EXPORT NSString *const writeToDiskError;
+FOUNDATION_EXPORT NSString *const decryptionError;
+FOUNDATION_EXPORT NSString *const readFromDiskError;
+FOUNDATION_EXPORT NSString *const configInformationAccessError;
+
 @end

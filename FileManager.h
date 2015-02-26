@@ -8,11 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "Settings.h"
+#import "RNCryptor/RNCryptor/RNCryptor/RNDecryptor.h"
+#import "RNCryptor/RNCryptor/RNCryptor/RNEncryptor.h"
 
 @interface FileManager : NSObject
-+(BOOL) isFirstRun;
-+(NSString *) getUserName;
-+(NSArray *) getEmergencyContacts;
-+(NSString *) getEmergencyMessage;
-+(void) saveSettingsChanges:(Settings *)newSettings;
++(NSError *) isFirstRun;
+
++(NSString *) getUsername;
++(NSString *) getPassword;
++(NSString *) getUserID;
+
++(NSError *) saveUsername:(NSString *)username password:(NSString *)password andId:(NSString *)userID;
+
 @end

@@ -10,16 +10,30 @@
 
 @implementation Constants
 
-NSString *const settingsFile = @"settings/general_settings.json";
-NSString *const settingsFileName = @"general_settings";
-NSString *const settingsFileExtention = @"json";
+//NSString *const configFilePath = @"settings/config.conf";
+//NSString *const configFileDirectory = @"settings/";
+NSString *const configFileName = @"config";
 
-NSString *const userNameKey = @"user_name";
-NSString *const emergencyContactsKey = @"contacts";
-NSString *const emergencyMessageKey = @"message";
+NSString *const usernameKey = @"username";
+NSString *const passwordKey = @"password";
+NSString *const idKey = @"id";
 
-NSString *const gpsReplacementString = @"[GPS]";
-NSString *const nameReplacementString = @"[NAME]";
-NSString *const defaultEmergencyMessage = @"[NAME] may have been involved in a vehicle accident at the location [GPS]. Do try to contact him/her and, if necessary, the pertinent authorities.";
+NSString *const callTypeKey = @"callType";
+NSString *const loggin = @"loggin";
+NSString *const confirmation = @"confirmation";
+NSString *const alert = @"alert";
+NSString *const cancel = @"cancel";
+
+NSString *const alertKey = @"alertKey";
+NSString *const red = @"red";
+NSString *const green = @"green";
+
+NSString *const gpsKey = @"gps";
+
+NSString *const encryptionError = @"encryption error";
+NSString *const writeToDiskError = @"write to disk error";
+NSString *const decryptionError = @"decryption error";
+NSString *const readFromDiskError = @"read to disk error";
+NSString *const configInformationAccessError = @"configuration information access error";
 
 @end
